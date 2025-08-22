@@ -6,6 +6,7 @@ int main(){
     int rainha = 0; 
     int torre = 0;
     int bispo = 0;
+    int cavalo = 1;
 
     //movimentos da rainha
     while (rainha <=4)
@@ -22,6 +23,14 @@ int main(){
     for (torre = 0; torre < 8; torre++)
     {
         printf("torre se movendo para esquerda\n");
+    }
+
+     while (cavalo--)
+    {
+        for(int i = 0; i < 2; i++){
+            printf("cavalo se movendo para baixo\n"); //imprimindo o movimento para baixo
+        }
+        printf("cavalo se movendo para esquerda\n"); //imprimindo o movimento para esquerda
     }
     
    
